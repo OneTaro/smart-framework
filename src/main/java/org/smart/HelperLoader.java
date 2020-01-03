@@ -26,5 +26,5 @@ public final class HelperLoader {
         for (Class<?> cls : classList) {
             ClassUtil.loadClass(cls.getName());
         }
-     }
+    }
 }

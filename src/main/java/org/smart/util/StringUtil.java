@@ -33,4 +33,15 @@ public final class StringUtil {
     public static boolean isNotEmpty(String str) {
         return !isEmpty(str);
     }
+
+    /**
+     * 分割固定格式的字符串
+     *
+     * @param str
+     * @param separator
+     * @return
+     */
+    public static String[] splitString(String str, String separator) {
+        return StringUtils.splitByWholeSeparator(str, separator);
+    }
 }
